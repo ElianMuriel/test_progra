@@ -1,0 +1,27 @@
+.productos-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tabla-productos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tabla-productos th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}

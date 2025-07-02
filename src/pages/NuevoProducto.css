@@ -1,0 +1,47 @@
+.nuevo-producto-container {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.nuevo-producto-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nuevo-producto-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nuevo-producto-container label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.nuevo-producto-container input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.nuevo-producto-container button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nuevo-producto-container button:hover {
+  background-color: #218838;
+}
+
+.mensaje {
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+}
