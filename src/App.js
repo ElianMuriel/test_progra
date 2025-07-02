@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Productos from './pages/Productos';
+import NuevoProducto from './pages/NuevoProducto';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
             <ul className="nav-links">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/productos">Productos</Link></li>
-              <li><a href="#">Nuevo Producto</a></li>
+              <li><Link to="/nuevo">Nuevo Producto</Link></li>
               <li><a href="#">Cálculos</a></li>
               <li><a href="#">Información</a></li>
             </ul>
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/productos" element={<Productos />} />
+          <Route path="/nuevo" element={<NuevoProducto />} />
         </Routes>
 
         <footer>
